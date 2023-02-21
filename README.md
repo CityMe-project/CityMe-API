@@ -14,7 +14,7 @@ The CityMe project aims at creating a framework for mapping, exploring and analy
 
 ## API
 
-The API allow seamless communication with the [APP](https://github.com/cleitonro/cityme-app) creating and consuming the data from the data base to the site/map vice versa.
+The API allow seamless communication with the [APP](https://github.com/CityMe-project/CityMe-Web) creating and consuming the data from the data base to the site/map vice versa.
 
 ## Methods
 API requests must follow the standards:
@@ -48,8 +48,8 @@ For security reasons, all requests must be made through the `HTTPS` protocol.
 
 | Method | Route | Description |
 |---|---|---|
-| `POST` | login | Use to enter in the [web version](https://github.com/cleitonro/cityme-web) on the survey section. |
-| `POST` | register | Use to register in the [web version](https://github.com/cleitonro/cityme-web) on the survey section. |
+| `POST` | login | Use to enter in the [web version](https://github.com/CityMe-project/CityMe-Web) on the survey section. |
+| `POST` | register | Use to register in the [web version](https://github.com/CityMe-project/CityMe-Web) on the survey section. |
 | `POST` | loginVerify | System to auto login with a token. |
 | `GET` | surveys | Get surveys information. |
 | `GET` | surveys/user | Get a survey with logged user information. |
